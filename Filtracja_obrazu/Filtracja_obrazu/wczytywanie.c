@@ -48,7 +48,7 @@ unsigned char* wczytajBMP(char* nazwaPliku, BITMAPINFOHEADER* bitmapInfoHeader) 
 		fseek(plik, bitmapFileHeader.bfOffBits, SEEK_SET);//Przesuniêcie wskaŸnika na poczatek danych o obrazie (bfOffbits informuje)
 		bitmapObraz = (unsigned char*)malloc(bitmapInfoHeader->biSizeImage);//Alokacja pamiêci na dane o obrazie
 
-		if (!bitmapObraz {//Sprawdzenie czy alokacja sie udala
+		if (!bitmapObraz) {//Sprawdzenie czy alokacja sie udala
 			free(bitmapObraz);
 			fclose(plik);
 			printf("Blad przy alokacji pamieci wejsciowego obrazu.");
@@ -73,7 +73,7 @@ unsigned char* wczytajBMP(char* nazwaPliku, BITMAPINFOHEADER* bitmapInfoHeader) 
 		return bitmapObraz;//Zwrócenie obrazu w postaci tablicy unsigned char
 	}
 	else {
-		printf("Nie znaleziono bmp.")
+		printf("Nie znaleziono bmp.");
 			return NULL;
 	}
 	}

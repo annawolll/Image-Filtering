@@ -3,6 +3,7 @@
 #define FUNKCJE_H
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
+#include<windows.h>
 #include<wingdi.h>
 #include<math.h>
 #include<stdbool.h>
