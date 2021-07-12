@@ -1,0 +1,6 @@
+﻿  filtracja.c
+  main.c
+  wczytywanie.c
+  Generowanie kodu...
+C:\Users\User\Desktop\GitHub\f70594a4-gr21-repo\Projekt\Filtracja-obrazu\Filtracja-obrazu\filtracja.c(41,1): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+  Filtracja-obrazu.vcxproj -> C:\Users\User\Desktop\GitHub\f70594a4-gr21-repo\Projekt\Filtracja-obrazu\Debug\Filtracja-obrazu.exe
